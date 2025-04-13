@@ -97,20 +97,20 @@ public class MyController {
 
 No Datadog acesse `Metrics > Explorer`
 
-![alt text](<Captura de tela de 2025-04-13 12-55-45.png>)
+![Captura de tela de 2025-04-13 12-55-45](https://github.com/user-attachments/assets/9bf71940-9253-41cd-a1dd-2ae06c0b9254)
+
 
 #### Filtre as metricas conforme o necessário
 
-![alt text](<Captura de tela de 2025-04-13 12-59-17.png>)
+![Captura de tela de 2025-04-13 12-59-17](https://github.com/user-attachments/assets/303b944a-3eec-435a-aa88-f26bef7baf76)
 
 **Métrica:** `http.server.requests.count` rastreia **o número total de requisições HTTP** recebidas por um serviço. 
 - **Filtros aplicados:**  
   - `service:meu-app` (apenas do serviço "meu-app")  
   - `uri:/hello` (apenas requisições para o endpoint `/hello`)  
 
-
 **Objetivo:**  
 Monitorar o **volume total de requisições HTTP** para o endpoint `/hello` no serviço especificado.  
 
 #### Assim as metricas ja serão apresentadas
-![alt text](<Captura de tela de 2025-04-13 13-02-50.png>)
+![Captura de tela de 2025-04-13 13-02-50](https://github.com/user-attachments/assets/938b73f9-6582-42f5-9e62-5e2f9d9ae147)
