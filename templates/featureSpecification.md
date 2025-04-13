@@ -16,7 +16,6 @@ Liste os comportamentos esperados. Esses critérios servirão de base para os te
 - [ ] 
 - [ ] 
 
----
 
 ### Entradas Esperadas
 
@@ -25,8 +24,6 @@ Informe os dados que serão recebidos na requisição, incluindo tipo, obrigator
 | Campo | Tipo | Obrigatório | Validações |
 |-------|------|-------------|------------|
 |       |      |             |            |
-
----
 
 ### Saídas Esperadas
 
@@ -59,8 +56,6 @@ Status: 400 Bad Request
 
 - A operação deve ser transacional.
 
----
-
 ### Comportamento Esperado em Caso de Erro
 
 #### Defina claramente como o sistema deve reagir em situações inválidas ou inconsistentes.
@@ -69,7 +64,6 @@ Status: 400 Bad Request
 
 - Em caso de tentativa de duplicação de recurso, retornar erro de conflito com mensagem adequada.
 
----
 
 ### Notas Técnicas
 
@@ -83,8 +77,6 @@ Status: 400 Bad Request
 
 4. Retornar DTO de resposta com mensagem padronizada
 
----
-
 ### Sugestões de Testes
 
 #### Liste os testes que devem ser implementados com base nos critérios definidos, seguindo a abordagem TDD.
@@ -97,7 +89,6 @@ Status: 400 Bad Request
 
 - Deve rejeitar campos com formato inválido
 
----
 
 ### Referências
 
