@@ -114,3 +114,7 @@ Monitorar o **volume total de requisições HTTP** para o endpoint `/hello` no s
 
 #### Assim as metricas ja serão apresentadas
 ![Captura de tela de 2025-04-13 13-02-50](https://github.com/user-attachments/assets/938b73f9-6582-42f5-9e62-5e2f9d9ae147)
+
+#### Também é possível criar deshboards com varias métricas
+![image](https://github.com/user-attachments/assets/f59e0149-6df4-41cf-a83a-2d2eb3bcb665)
+
