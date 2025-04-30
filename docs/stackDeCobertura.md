@@ -3,15 +3,6 @@ JaCoCo é a principal ferramenta de cobertura de código para Java.
 Gera relatórios de cobertura por **linha**, **instrução** e **branch**, com fácil integração via **Maven**, **Gradle** e **SonarQube**.  
 Ideal para acompanhar quanto do código é realmente exercitado pelos testes unitários.
 
-### ☁️ **Codecov**  
-Codecov é uma plataforma em nuvem que coleta e exibe relatórios de cobertura de testes.  
-Integra-se com **GitHub/GitLab/CircleCI** e consome dados gerados por ferramentas como **JaCoCo**.  
-Permite visualizar gráficos e métricas de cobertura diretamente nos **PRs** e no repositório.
-
-### 🧾 Cabeçalhos do Relatório
-
-Cada linha representa um pacote do seu projeto. As colunas significam:
-
 | Coluna             | Significado                                                                 |
 |--------------------|------------------------------------------------------------------------------|
 | **Element**         | Nome do pacote ou classe                                                    |
@@ -24,6 +15,15 @@ Cada linha representa um pacote do seu projeto. As colunas significam:
 | **Missed Methods**  | Métodos não executados                                                     |
 | **Missed Classes**  | Classes totalmente não testadas                                            |
 
+
+### ☁️ **Codecov**  
+Codecov é uma plataforma em nuvem que coleta e exibe relatórios de cobertura de testes.  
+Integra-se com **GitHub/GitLab/CircleCI** e consome dados gerados por ferramentas como **JaCoCo**.  
+Permite visualizar gráficos e métricas de cobertura diretamente nos **PRs** e no repositório.
+
+### 🧾 Cabeçalhos do Relatório
+
+Cada linha representa um pacote do seu projeto. As colunas significam:
 
 ### 🔬 **Pitest**  
 Pitest realiza **testes de mutação**, alterando o código propositalmente para avaliar a eficácia dos testes.  
